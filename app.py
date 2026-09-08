@@ -20,8 +20,6 @@ with open('label_encoder_gender.pkl', 'rb') as file:
 with open('scaler.pkl', 'rb') as file:
     scaler = pickle.load(file)
 
-st.sidebar()
-
 ## streamlit app
 st.title('Customer Churn Prediction')
 
